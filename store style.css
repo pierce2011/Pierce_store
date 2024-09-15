@@ -124,3 +124,29 @@ footer {
     padding: 1rem;
     margin-top: 2rem;
 }
+
+#chatbot {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background: white;
+    padding: 10px;
+}
+
+#chatbot-messages {
+    height: 200px;
+    overflow-y: scroll;
+    margin-bottom: 10px;
+}
+
+#user-input {
+    width: 70%;
+    padding: 5px;
+}
+
+#chatbot button {
+    width: 25%;
+}
